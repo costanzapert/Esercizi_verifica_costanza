@@ -5,6 +5,9 @@
 # / salvati e solo dopo il login.  Andare a creare un menu che 
 # concateni le tre funzioni precedenti e permetta di ripetere il ciclo
 # a più utenti diversi.
+
+
+#non funziona :'(
 nome = ""
 password = ""
 def dati():
@@ -15,7 +18,7 @@ def login():
     if nome != "" and password != "":
         nome_l = input("Inserisci nome per login: ")
         password_l = input("Inserisci password per login: ")
-        if [nome_l, password_l] == dati():
+        if [nome_l , password_l] == [dati()]:
             print("Login effettuato correttamente")
             return True
     
